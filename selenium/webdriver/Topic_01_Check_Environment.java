@@ -31,6 +31,9 @@ public class Topic_01_Check_Environment {
     public void TC_01_Run_On_Edge() {
         driver = new EdgeDriver();
         driver.get("https://www.facebook.com/");
+
+        driver.findElement(By.cssSelector(""));
+        driver.quit();
     }
 
 
